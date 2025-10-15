@@ -10,6 +10,6 @@ For cleaning:
 - RCVaccession to be removed. Seems like redundant information Gene, ClinicalSignificance etc. 
 - PhenotypeIDS and PhenotypeList seems to have a bunch of missing. ID seems to say no missing but List seems to indicate most are missing
 - Origin seems like more granular than OriginSimple. Remove OriginSimple?
-- Chromosome has int as dtype for some instances and str as others. Jeffrey tism this for me please.
+- Chromosome indicates in which chromosome this variation was found in. 1-22 for the first 22 chromsomes, "X" or "Y" for the sex chromosomes, and "na" for incomplete data.
 - ReferenceAllele and AlternateAllele to be removed. Almost all missing
 STOPPED AFTER Cytogenetic
