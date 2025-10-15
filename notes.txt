@@ -1,0 +1,15 @@
+Notes:
+
+
+For cleaning:
+- GeneID and GeneSymbol seem redundant. Remove GeneID and extract Gene with multiple symbols
+- GeneName to be removed. Seems like a way to name the gene and summarizes features we already have columns for
+- HGNC_ID to be removed. Says if there is more than one GeneID. Redundant
+- RS# (dbSNP) to be removed. Seems like an ID for another DB. Almost all are missing
+- nsv/esv (dbVar) to be removed. Same thing as ^^
+- RCVaccession to be removed. Seems like redundant information Gene, ClinicalSignificance etc. 
+- PhenotypeIDS and PhenotypeList seems to have a bunch of missing. ID seems to say no missing but List seems to indicate most are missing
+- Origin seems like more granular than OriginSimple. Remove OriginSimple?
+- Chromosome has int as dtype for some instances and str as others. Jeffrey tism this for me please.
+- ReferenceAllele and AlternateAllele to be removed. Almost all missing
+STOPPED AFTER Cytogenetic
