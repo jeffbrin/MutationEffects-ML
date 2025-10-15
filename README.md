@@ -60,5 +60,5 @@ A machine learning pipeline aiming to identify and classify variations in genes 
 --------
 
 ## Dataset 
-https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/ <br>
-https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/variant_summary.txt.gz
+Source: https://ftp.ncbi.nlm.nih.gov/pub/clinvar/tab_delimited/ <br>
+File: variant_summary.txt.gz
