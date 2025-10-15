@@ -4,7 +4,7 @@
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
-A machine learning pipeline aiming to identify and classify variations in genes to identify pathogenir benign variations.
+A machine learning pipeline aiming to identify and classify variations in genes to identify pathogenic or benign variations.
 
 ## Project Organization
 
